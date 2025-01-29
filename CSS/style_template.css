@@ -1,0 +1,205 @@
+/* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+body {
+    margin: 0;
+}
+
+/* Nav Styles */
+nav {
+    background-color:#ffa726;
+    color: white;
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav p, nav a {}
+
+nav a {}
+
+nav a:hover {}
+
+/* Footer Styles */
+footer {
+    background-color: #1a73e8;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+}
+
+footer a {}
+
+footer a:hover {}
+
+/* Splash Section */
+.splash {
+    background-color: bisque;
+    color: black;
+}
+
+.splash h1 {
+    font-size: 24px;
+    font-family: "Anton SC", serif;
+    color: black;
+}
+
+.splash img {
+    border-style: double;
+    
+    border-radius: 50%;
+}
+
+.splash p {
+    font-style: italic;
+    font-size: larger;
+    
+}
+
+/* Horizontal Rules */
+hr {
+    border: 0;
+    border-top: black;
+    margin: auto;
+    height: 2px;
+    background: linear-gradient(to right, #ffa726, #1a73e8);
+    margin: 20px 0;
+    
+}
+
+/* Sections */
+section {
+    background-color: bisque;
+    
+}
+
+/* Section Headings */
+section h2 {
+    font-family: "Anton SC", serif;
+    color: black;
+    font-size: xx-large;
+}
+
+/* Paragraph Styles */
+section p {
+    color: black;
+    font-style: italic;
+    font-size: medium;
+}
+
+/* link styles */
+section a {
+    color: red;
+    font-style:italic;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+}
+section a:hover {
+    color:aquamarine;
+    font-style:italic;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+}
+
+/* List Styles */
+ul {
+    color: grey;
+    font-style:italic;
+    
+}
+
+dl {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px 20px;
+    margin: 10px 0;
+    color: black;
+    font-style:italic;
+}
+dl dt{
+    
+    color: black;
+    font-style:italic;
+}
+dl dd{
+    color: black;
+    font-style:italic;
+}
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20p;
+    
+}
+
+.card {
+    
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin-right: 10px;
+    gap: 20px;
+    box-shadow: 0 4px 8px black;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img {
+    width: 50%;
+    max-width: 50%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card h3 {
+    color: blue;
+}
+
+/* Contact Page Styles */
+.one-col {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black; 
+    border-radius: 5px; 
+    background-color: whitesmoke; 
+    align-items: center;
+    box-shadow: inset 0 1px 3px black;
+}
+
+form input:focus, form textarea:focus {
+    border-color: black; 
+    outline:auto; 
+    background-color: whitesmoke;
+    align-items: center;
+}
+
+form button {
+    padding: 10px 20px;
+    box-shadow: inset 0 1px 3px black;
+    
+}
+
+form button:hover {}
